@@ -1,0 +1,22 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="BackEndServerLab:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/BackEndServerLab_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="BackEndServerLab/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="BackEndServerLab" />
+          <element id="jpa-descriptors" facet="BackEndServerLab/jpa/JPA" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="JPA 2.0-2.0" />
+          <element id="library" level="project" name="org.hibernate:hibernate-entitymanager:4.1.5.Final" />
+          <element id="file-copy" path="$USER_HOME$/Downloads/mysql-connector-java-5.1.39-bin.jar" />
+          <element id="library" level="project" name="Jersey-2.2" />
+          <element id="library" level="project" name="Maven: com.sun.jersey:jersey-bundle:1.18.3" />
+          <element id="library" level="project" name="Maven: javax.ws.rs:jsr311-api:1.1.1" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
